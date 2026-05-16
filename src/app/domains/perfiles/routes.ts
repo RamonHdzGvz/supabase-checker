@@ -7,7 +7,7 @@ export default [
     children: [
       {
         path: "",
-        loadComponent: () => import("@domains/perfiles/qr-page/qr-page").then((m) => m.QrPage),
+
       }
     ],
   },

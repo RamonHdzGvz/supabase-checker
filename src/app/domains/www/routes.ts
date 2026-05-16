@@ -8,7 +8,7 @@ export default [
     children: [
       {
         path: "",
-        loadComponent: () => import("@domains/www/divorce-home-page/divorce-home-page").then((m) => m.DivorceHomePage),
+        loadComponent: () => import("@domains/www/home-page/home-page").then((m) => m.HomePage),
       },
       // { path: 'plg/:CODE', canActivate: [profilesRedirectGuard], },
       { path: '**', redirectTo: '' }
