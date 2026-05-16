@@ -1,0 +1,19 @@
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "printWidth": 120,
+  "singleQuote": false,
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "trailingComma": "es5",
+  "overrides": [
+    {
+      "files": ["*.html", "*.component.html"],
+      "options": {
+        "parser": "angular",
+        "useTabs": false,
+        "tabWidth": 2
+      }
+    }
+  ]
+}

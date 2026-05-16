@@ -1,0 +1,8 @@
+@if (loadingService.loading()) {
+<div class="fixed inset-0 flex items-center justify-center 
+           backdrop-blur-[6px] z-50 
+           transition-all duration-500 ease-in-out">
+  <p-progressSpinner strokeWidth="7" fill="transparent" animationDuration=".5s"
+    [style]="{ width: '100px', height: '100px' }" ariaLabel="Loading"></p-progressSpinner>
+</div>
+}

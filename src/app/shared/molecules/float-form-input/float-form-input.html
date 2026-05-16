@@ -1,0 +1,47 @@
+<div class="w-full">
+  <div class="relative">
+    <p-floatlabel variant="on">
+      @if (type === 'text') {
+      <input [type]="type" pInputText class="w-full pl-10" [id]="label" [formControl]="control"
+        (blur)="applyDeferredNormalization()" />
+      }
+      @if (type === 'password') {
+      <p-password [inputId]="label" [inputStyleClass]="'w-full pl-10'" class="w-full" [formControl]="control"
+        [toggleMask]="false" [feedback]="false"></p-password>
+      }
+      @if (type === 'textarea') {
+      <textarea pTextarea [id]="label" [formControl]="control" [rows]="rows" cols="30" style="resize: none"
+        class="w-full pl-10"></textarea>
+      }
+
+      <label [for]="label" class="text-base! flex items-center gap-2">
+        @if (icon) {
+        <i class="pi {{icon}} text-gray-500"></i>
+        }
+        {{ label }}
+        @if (requiredSign) {
+        <span class="text-red-500">*</span>
+        }
+      </label>
+
+    </p-floatlabel>
+
+  </div>
+
+  @if (control.touched && control.invalid) {
+  @if (control.errors?.['required']) {
+  <p class="text-sm text-red-600">{{ label }} es obligatorio.</p>
+  }
+  @if (control.errors?.['email']) {
+  <p class="text-sm text-red-600">Debe ser un correo válido.</p>
+  }
+  @if (control.errors?.['minlength']) {
+  <p class="text-sm text-red-600">
+    Mínimo {{ control.errors?.['minlength'].requiredLength }} carácteres.
+  </p>
+  }
+  @if (control.errors?.['passwordMismatch']) {
+  <p class="text-sm text-red-600">Las contraseñas no coinciden.</p>
+  }
+  }
+</div>

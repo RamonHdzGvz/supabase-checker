@@ -1,0 +1,27 @@
+<!-- NAVBAR & HEADER -->
+<app-navbar (onButton)="scheduleAppointment()"></app-navbar>
+<!-- HERO SECTION TEMPLATE -->
+<app-hero-template titleHint="Recupera tu tranquilidad legal" title="Divorcio"
+  description="Te ayudamos a resolver tu divorcio de forma clara, legal y sin complicaciones innecesarias. Protege tu patrimonio desde hoy."
+  [showButtons]="true" mobileImage="assets/images/hero-divorce-square.jpg"
+  desktopImage="assets/images/hero-divorce-full.jpg" [showBulletPoints]="true"
+  [bulletPoints]="['Asesoria especializada en divorcios', 'Protegemos tus derechos y los de tus hijos', 'Confidencialidad, respeto y trato humano']"
+  (onButton1)="requestInformation1()" (onButton2)="requestInformation2()">
+</app-hero-template>
+<!-- MINI FEATURES SECTION -->
+<app-mini-features-section></app-mini-features-section>
+<!-- CARDS SECTION -->
+<app-cards-section (onButton1)="requestInformation1()" (onButton2)="requestInformation2()"></app-cards-section>
+<!-- TRUST INDICATORS SECTION -->
+<app-trust-indicators-section></app-trust-indicators-section>
+<!-- MINI HERO TEMPLATE -->
+<app-mini-hero-template mobileImage="assets/images/derecho-familiar.jpg"
+  desktopImage="assets/images/derecho-familiar.jpg" titleHint="Defensa Estratégica" title="RESULTADOS CON ESTRATEGIA"
+  [showButtons]="true" (onButton1)="contactViaWhatsApp()" (onButton2)="contactViaWhatsApp()" [showButtons]="false">
+</app-mini-hero-template>
+<!-- FEATURES SECTION -->
+<app-features-section></app-features-section>
+<!-- CONTACT FORM SECTION -->
+<app-contact-form-section></app-contact-form-section>
+<!-- INFO + FOOTER -->
+<app-footer></app-footer>

@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+@import 'tailwindcss-primeui';
+@import 'primeicons/primeicons.css';
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.font-logo-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.font-logo-subtitle {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+.labels {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --color-golden-50: #fbefe3;
+  --color-golden-100: #f7dec2;
+  --color-golden-200: #f2c382;
+  --color-golden-300: #e0ae63;
+  --color-golden-400: #ca9d59;
+  --color-golden-500: #ad864b;
+  --color-golden-600: #8d6c3b;
+  --color-golden-700: #6b522b;
+  --color-golden-800: #49371b;
+  --color-golden-900: #281d0c;
+  --color-golden-950: #171005;
+
+  --color-madison-50: #ecf0ff;
+  --color-madison-100: #cfdaff;
+  --color-madison-200: #a0b8ff;
+  --color-madison-300: #6e9bff;
+  --color-madison-400: #207fff;
+  --color-madison-500: #0068d7;
+  --color-madison-600: #0052ad;
+  --color-madison-700: #003e86;
+  --color-madison-800: #002b61;
+  --color-madison-900: #001b42;
+  --color-madison-950: #00102c;
+
+  --font-display: 'Playfair Display', serif;
+}

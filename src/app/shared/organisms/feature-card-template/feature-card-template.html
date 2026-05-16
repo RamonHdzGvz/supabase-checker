@@ -1,0 +1,11 @@
+<div class="w-50 min-h-50 flex flex-col items-center justify-center text-center max-md:py-6 lg:py-4">
+  <div class="w-20 h-20 rounded-full border-2 border-golden-300 flex items-center justify-center mb-3 bg-transparent">
+    <i [class]="icon" class="text-golden-300 ml-0.5" style="font-size: 2.5rem"></i>
+  </div>
+  <h3 class="text-lg font-semibold mb-2" [class.text-gray-200]="lightText" [class.text-madison-800]="!lightText">
+    {{ title }}
+  </h3>
+  <p class="text-sm font-light" [class.text-gray-200]="lightText" [class.text-madison-800]="!lightText">
+    {{ subtitle }}
+  </p>
+</div>
