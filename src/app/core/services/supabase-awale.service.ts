@@ -12,33 +12,22 @@ export interface Project {
   providedIn: 'root',
 })
 
-export class SupabaseAwaleService {
-  private supabase = inject(SupabaseService);
-  /*
-    async pingProjectDummy(project: Project): Promise<any> {
-      return this.supabase.callFunction(project.functionName, {
-        method: 'POST',
-        body: { ping: true }
-      });
-    }
-  */
+export class SupabaseAwakeService {
   async pingProject(project: Project): Promise<any> {
-    const url = `https://${project.subdomainUrl}.supabase.co/functions/v1/${project.functionName}`;
+    const url = `https://${project.subdomainUrl}.supabase.co/functions/v1/supabase-ping`;
 
     const response = await fetch(url, {
-      method: 'POST',
+      method: 'GET',
       headers: {
         'Authorization': `Bearer ${project.bearerToken}`,
         'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ ping: true })
+      }
     });
 
     if (!response.ok) {
       const errorText = await response.text();
       throw new Error(`Error ${response.status}: ${errorText}`);
     }
-
     return response.json();
   }
 }

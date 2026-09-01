@@ -15,34 +15,24 @@ export const environment = {
 
   projects: [
     {
+      name: 'Asesoría Legal',
+      subdomainUrl: 'cztmtghtxuifbofzmdcc',
+      bearerToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN6dG10Z2h0eHVpZmJvZnptZGNjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkzODgwMTUsImV4cCI6MjA5NDk2NDAxNX0.XuyELdnf8dsWZRWIVmfZ1k2orHjDqJDk6TSDtTQTeNA'
+    },
+    {
       name: 'Prolitigio',
-      subdomainUrl: 'oaguvozaenxdhttbmlnq',
-      functionName: 'testing-path',
-      bearerToken: 'eyJhbGciOi'
+      subdomainUrl: 'itzoxmkmzmvufbvfnhtt',
+      bearerToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml0em94bWttem12dWZidmZuaHR0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU3ODIzMTQsImV4cCI6MjA5MTM1ODMxNH0.b9a7oBIhd-E0w2jOR52QAu8qmrF6q4WBc9snO7ulIrI'
     },
     {
       name: 'Spacia',
-      subdomainUrl: 'itzoxmkmzmvufbvfnhtt',
-      functionName: 'testing-path',
-      bearerToken: 'eyJhbGciOi'
-    },
-    {
-      name: 'Préstamos',
-      subdomainUrl: 'oaguvozaenxdhttbmlnq',
-      functionName: 'testing-path',
-      bearerToken: 'eyJhbGciOi'
+      subdomainUrl: 'qgkuoimqdkevctykyxwv',
+      bearerToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFna3VvaW1xZGtldmN0eWt5eHd2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAyMzg3NzgsImV4cCI6MjA4NTgxNDc3OH0.yZOXEHiw9U9pQj7iH9glva0OencKHOVrok53wllfXyE'
     },
     {
       name: 'Biblias',
       subdomainUrl: 'oaguvozaenxdhttbmlnq',
-      functionName: 'testing-path',
-      bearerToken: 'eyJhbGciOi'
-    },
-    {
-      name: 'Asesorías',
-      subdomainUrl: 'oaguvozaenxdhttbmlnq',
-      functionName: 'testing-path',
-      bearerToken: 'eyJhbGciOi'
+      bearerToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9hZ3V2b3phZW54ZGh0dGJtbG5xIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg1MzU4MzIsImV4cCI6MjA4NDExMTgzMn0.pyp2fmt_0XKLRcdywt6DelJfKF9G6d39gjQP4r2mLOA'
     }
   ]
 };

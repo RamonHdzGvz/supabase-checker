@@ -1,6 +1,6 @@
-# 🧩 MonchitoLabs Web
+# 🧩 AdvancedCoreLabs Stack
 
-**MonchitoLabs** es una base de desarrollo web moderna y escalable construida con **Angular 20**, **TailwindCSS 4** y **PrimeNG 20**, diseñada para crear aplicaciones modulares bajo el enfoque de **Atomic Design**.
+**AdvancedCoreLabs Stack** es una base de desarrollo web moderna y escalable construida con **Angular 20**, **TailwindCSS 4** y **PrimeNG 20**, diseñada para crear aplicaciones modulares bajo el enfoque de **Atomic Design**.
 
 ---
 

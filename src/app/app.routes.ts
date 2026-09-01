@@ -7,11 +7,6 @@ export const registry = createAppRegistry({
     loadRoutes: () => import("@domains/www/routes"),
     layout: () => import("@templates/layouts/main-layout/main-layout").then((m) => m.MainLayout),
   },
-  perfiles: {
-    subdomains: ["perfiles"],
-    loadRoutes: () => import("@domains/perfiles/routes"),
-    layout: () => import("@templates/layouts/main-layout/main-layout").then((m) => m.MainLayout),
-  },
 });
 
 export const routes = createAppRoutes(registry, window.location.hostname);

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "asesoria-legal-website": {
+    "supabase-checker-website": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -102,10 +102,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "asesoria-legal-website:build:production"
+              "buildTarget": "supabase-checker-website:build:production"
             },
             "development": {
-              "buildTarget": "asesoria-legal-website:build:development"
+              "buildTarget": "supabase-checker-website:build:development"
             }
           },
           "defaultConfiguration": "development"
