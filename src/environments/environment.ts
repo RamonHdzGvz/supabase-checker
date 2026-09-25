@@ -15,6 +15,11 @@ export const environment = {
 
   projects: [
     {
+      name: 'AdvancedCoreLabs',
+      subdomainUrl: 'ugcihdnxbqxlhtwlusaw',
+      bearerToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVnY2loZG54YnF4bGh0d2x1c2F3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTAzMDA4NzUsImV4cCI6MjEwNTg3Njg3NX0.aSNwyacfmQE5XRGSNx7L_3-7f8byWO20nxm5aGkrAFU'
+    },
+    {
       name: 'Asesoría Legal',
       subdomainUrl: 'cztmtghtxuifbofzmdcc',
       bearerToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN6dG10Z2h0eHVpZmJvZnptZGNjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkzODgwMTUsImV4cCI6MjA5NDk2NDAxNX0.XuyELdnf8dsWZRWIVmfZ1k2orHjDqJDk6TSDtTQTeNA'
